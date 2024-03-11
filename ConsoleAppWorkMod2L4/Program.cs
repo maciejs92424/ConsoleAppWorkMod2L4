@@ -24,8 +24,8 @@ namespace ConsoleAppWorkMod2L4
             int.TryParse(Console.ReadLine(), out int widthOfRect);
             Console.WriteLine("Enter the length of rectangle:");
             int.TryParse(Console.ReadLine(), out int lenghtOfRect);
-            //Diagonal of the rectangle
             double diagonalOfRect = Math.Sqrt((Math.Pow(widthOfRect, 2) + Math.Pow(lenghtOfRect, 2)));
+            Console.WriteLine($"Diagonal of the rectangle: {diagonalOfRect}");
             //Exercise 4
             int valA = 10;
             string b1 = "Dotnet's school";
